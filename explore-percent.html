@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .btn {
+            background-color: deeppink;
+            /*padding: 10px;*/
+            /*line-height: 50px;*/
+            float: left;
+        }
+
+        .c:after {
+            content: '';
+            line-height: 0;
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+<!--http://isux.tencent.com/web-app-rem.html  rem 布局-->
+<!--https://www.zhihu.com/question/21679928/answer/84884920  流式布局和响应式布局差别-->
+<!--流式布局中不要设置块级元素高度-->
+<p style="height: 20px;">rem这是个低调的css单位，近一两年开始崭露头角，有许多同学对rem的评价不一，有的在尝试使用，有的在使用过程中遇到坑就弃用了。但是我对rem综合评价是用来做web
+    app它绝对是最合适的人选之一。</p>
+
+<p>sadfasdfa</p>
+
+<hr style="margin-top: 80px;">
+<p style="">rem这是个低调的css单位，近一两年开始崭露头角，有许多同学对rem的评价不一，有的在尝试使用，有的在使用过程中遇到坑就弃用了。但是我对rem综合评价是用来做web
+    app它绝对是最合适的人选之一。</p>
+
+<p>sadfasdfa</p>
+
+
+<!--流式布局中避免使用行内元素-->
+<hr style="margin-top: 80px;">
+<div><span>hello jake,I am rose,come on!hello jake,I am rose,come on!hello jake,I am rose,come on!</span></div>
+
+<div class="c">
+    <a class="btn">hello jake,I am rose,come on!hello jake,I am rose,come on!hello jake,I am rose,come on!</a>
+</div>
+
+<!--浮动元素设置的百分比宽度，在屏幕变小的情况下不会折行-->
+<div class="c">
+    <span style="float:left; background-color: deeppink;width: 40%">hello jake,I am rose,come on!hello jake,I am rose,come on!hello jake,I am rose,come on!</span>
+    <a style="float: left;width: 40%">hello jake,I am rose,come on!hello jake,I am rose,come on!hello jake,I am
+        rose,come on!</a>
+    <a style="float: left;width: 20%">se,come on!hello
+        rose,come on!</a>
+</div>
+
+<!--固定宽度布局，高度不设置，配合响应式-->
+
+</body>
+</html>

@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 20px Arial, Helvetica, sans-serif, "黑体";
+    color: #000000;
+    height: auto;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div#orderPage {
+    margin: 0 auto;
+    /*min-width: 1600px;*/
+    /*max-width: 1900px;*/
+    width: 1800px;
+}
+
+div.clear {
+    clear: both;
+}
+
+#header ul.nav {
+    list-style-type: none;
+    margin-left: 45.5%;
+    line-height: 100px;
+    float: left;
+    margin-top: -82px;
+}
+
+#header ul li {
+    float: left;
+    font-weight: 600;
+    margin-right: 50px;
+    padding: 0 3px;
+    background-repeat: no-repeat;
+}
+
+div#header {
+    width: 100%;
+    height: 100px;
+}
+
+#header img {
+    margin-left: 20%;
+    margin-top: 1.2%;
+}
+
+/**-----------------------------------------page1**/
+div#content {
+    width: 100%;
+}
+
+div.ds-1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.ds-2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.ds-3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.ds-4 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.des-1 {
+    height: 671px;
+    text-align: center;
+}
+
+div.des-1 ul {
+    margin-left: 18%;
+    float: left;
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+div.des-1 ul li {
+    float: left;
+    height: 350px;
+    border: 1px solid rgb(239, 239, 239);
+    margin-right: 80px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+dl.child_des {
+    font-size: 14px;
+    width: 230px;
+}
+
+.des-1 h1 {
+    margin-top: 50px;
+}
+
+.des-1 p {
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(166, 166, 166);
+}
+
+.des-1 img {
+    margin: 30px 0;
+}
+
+.des-1 dt {
+    font-size: 27px;
+}
+
+dt.help {
+    color: rgb(255, 99, 142);
+}
+
+dt.manage {
+    color: rgb(88, 185, 241);
+}
+
+dt.market {
+    color: rgb(248, 186, 70);
+}
+
+dt.service {
+    color: rgb(135, 202, 8);
+}
+
+.des-1 dd {
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: left;
+    margin-top: 18px;
+    padding: 0 20px;
+    color: rgb(135, 138, 138);
+}
+
+/**--------------------------------------------page2**/
+
+div.des-2 {
+    height: 554px;
+}
+
+div.person {
+    background-image: url("../img/bg-person.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    height: 554px;
+    position: relative;
+    width: 60%;
+}
+
+div.person img.p1 {
+    bottom: 23%;
+    left: 28%;
+    position: absolute;
+}
+
+div.person img.p2 {
+    bottom: 26%;
+    left: 40%;
+    position: absolute;
+}
+
+div.person img.p3 {
+    bottom: 30%;
+    left: 51%;
+    position: absolute;
+}
+
+div.person img.p4 {
+    bottom: 18%;
+    left: 57%;
+    position: absolute;
+}
+
+div.person img.p5 {
+    bottom: 27%;
+    left: 65%;
+    position: absolute;
+}
+
+div.person img.p6 {
+    bottom: 26%;
+    left: 76%;
+    position: absolute;
+}
+
+div.person span {
+    color: white;
+    font-size: 27px;
+    left: 48%;
+    position: absolute;
+    text-align: center;
+    top: 22%;
+    word-wrap: break-word;
+}
+
+div.app {
+    height: 554px;
+    float: left;
+    width: 40%;
+}
+
+div.app ul {
+    float: left;
+    margin-top: 25px;
+    width: 100%;
+}
+
+div.app ul li {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.app li span {
+    display: block;
+    font-size: 14px;
+    color: rgb(183, 160, 127);
+}
+
+.app h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    color: rgb(83, 83, 83);
+}
+
+div.appInfo {
+    float: right;
+    text-align: left;
+    margin-top: 70px;
+}
+
+.appInfo h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+.appDown {
+    margin-top: 45px;
+}
+
+.appDown p {
+    color: rgb(151, 151, 151);
+}
+
+/**--------------------------------------------page3**/
+div.des-3 {
+    height: 500px;
+}
+
+div.ms_txt {
+    width: 50%;
+    height: 554px;
+    float: left;
+}
+
+div.ms_pic {
+    width: 50%;
+    height: 554px;
+    float: left;
+}
+
+.ms_txt > div {
+    float: right;
+    width: 65%;
+    margin-top: 12%;
+}
+
+.ms_txt h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+.ms_txt h2 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: rgb(83, 83, 83);
+}
+
+.ms_txt p {
+    margin-top: 10%;
+    color: rgb(154, 154, 154);
+}
+
+.ms_pic .content {
+    background-image: url("../img/ms-cricle.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-left: 23%;
+    margin-top: 5%;
+    width: 400px;
+    position: relative;
+}
+
+li.center {
+    left: 30%;
+    position: absolute;
+    top: 35%;
+    width: 143px;
+}
+
+.circle_1 {
+    left: 35%;
+    position: absolute;
+    top: -13%;
+    width: 89px;
+    text-align: center;
+}
+
+.circle_2 {
+    left: -30%;
+    position: absolute;
+    top: 18%;
+    width: 50%;
+}
+
+.circle_2 > span {
+    display: inline-block;
+    margin-top: 19%;
+    position: absolute;
+}
+
+.circle_2 > img {
+    margin-left: 50%;
+}
+
+.circle_3 {
+    width: 50%;
+}
+
+.circle_3 > span {
+    margin-left: 3%;
+    margin-top: 9%;
+    position: absolute;
+}
+
+.circle_3 {
+    left: 77%;
+    position: absolute;
+    top: 18%;
+    width: 50%;
+}
+
+.circle_4 {
+    left: 70%;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+}
+
+.circle_4 > span {
+    margin-left: 8%;
+    margin-top: 25%;
+    position: absolute;
+}
+
+.circle_5 > img {
+    margin-left: 50%;
+}
+
+.circle_5 > span {
+    margin-top: 30%;
+    position: absolute;
+}
+
+.circle_5 {
+    left: -20%;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+}
+
+s {
+    border-color: rgb(131, 212, 242) transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    border-width: 8px;
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+
+}
+
+div.container {
+    position: absolute;
+}
+
+div.content {
+    background-color: rgb(131, 212, 242);
+    padding: 3px 8px;
+    color: white;
+    border-radius: 4px;
+}
+
+.ds_pic {
+    width: 100%;
+}
+
+ul.linksUl {
+    float: left;
+    margin-left: 17%;
+    width: 64%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+ul.linksUl > li {
+    float: left;
+    width: 24%;
+    height: 110px;
+}
+
+.version {
+    clear: left;
+    text-align: center;
+}
+
+div.links {
+    float: left;
+    height: 180px;
+    width: 100%;
+}
+
+div#footer {
+    height: 20%;
+}
+
+ul.linksUl .line {
+    border-right: solid 1px rgb(208, 208, 208);
+    width: 24.9%;
+}
+
+h4.web100 {
+    background: url("../img/tie-5.gif") 25% center no-repeat;
+    line-height: 30px;
+}
+
+h4.contact {
+    background: url("../img/tie_1.gif") 25% center no-repeat;
+    line-height: 30px;
+}
+
+h4.about {
+    background: url("../img/tie-2.gif") 25% center no-repeat;
+    line-height: 30px;
+}
+
+h4.down {
+    background: url("../img/tie-4.gif") 25% center no-repeat;
+    line-height: 30px;
+}
+
+.line > ul {
+    margin-top: 10px;
+}
+
+.line > ul li {
+    color: rgb(174, 174, 174);
+    font-size: 15px;
+    line-height: 1.7em;
+}
+
+.line a {
+    color: rgb(104, 104, 104);
+}
+
+.line h4 {
+    font-size: 19px;
+}
+
+li.about ul li:first-child {
+    background: url("../img/tie-6.gif") no-repeat 33% center;
+}
+
+li.about ul li:last-child {
+    background: url('../img/tie-7.gif') no-repeat 33% center;
+}
+
+div.version {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.line.web100 > ul {
+    margin-right: 8%;
+}
+
+.line.contact > ul {
+    margin-right: 5%;
+}
+
+.line.about > ul {
+    margin-left: 8%;
+}
+
+.down > img {
+    margin-top: 10px;
+}
